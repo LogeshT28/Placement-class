@@ -1,3 +1,4 @@
+package Practice;
 public class IntegerPalindrome {
     public static void main(String[] args) {
         int a = 123;
