@@ -18,5 +18,12 @@ public class AmstrongNum {
             temp/=10;
         }
         System.out.println(res);
+        if(n==res){
+            System.out.println("It is Amstrong Number"); 
+        }
+        else{
+            System.out.println("It is Not Amstrong Number"); 
+           
+        }
     }
 }
