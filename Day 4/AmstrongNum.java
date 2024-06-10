@@ -19,10 +19,10 @@ public class AmstrongNum {
         }
         System.out.println(res);
         if(n==res){
-            System.out.println("It is Amstrong Number"); 
+            System.out.println(n+"It is Amstrong Number"); 
         }
         else{
-            System.out.println("It is Not Amstrong Number"); 
+            System.out.println(n+"It is Not Amstrong Number"); 
            
         }
     }
