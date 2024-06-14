@@ -17,6 +17,9 @@ class Person{
     }
 }
 class Employee extends Person{
+    public Employee(String string, String string2, double d) {
+        //TODO Auto-generated constructor stub
+    }
     public String getFirstName(String Fname){
         return Fname;
     }
