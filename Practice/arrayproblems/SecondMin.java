@@ -1,8 +1,8 @@
-package Practice;
+package Practice.arrayproblems;
 
 import java.util.Scanner;
 
-public class SecondMax {
+public class SecondMin {
     public static void main(String[] args) {
         Scanner s = new  Scanner(System.in);
         int size = s.nextInt();
@@ -10,18 +10,18 @@ public class SecondMax {
         for(int i=0;i<size;i++){
             a[i] = s.nextInt();
         }
-        int first =0;
-        int second= 0;
+        int first =Integer.MAX_VALUE;
+        int second= Integer.MAX_VALUE;
         for(int i=0;i<size;i++){
-            if(a[i] > first){
-                second  = first;
+            if(a[i] < first){
+                second = first;
                 first = a[i];
             }
-            else if(a[i] > second && a[i]!=first){
-                    second = a[i];
+            else if(a[i] < second && a[i] !=first){
+                second = a[i];
             }
         }
-
+        
         System.out.println(second);
         System.out.println(first);
     }
