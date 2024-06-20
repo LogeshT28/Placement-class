@@ -4,6 +4,9 @@ class Car{
         int Speed = s;
         System.out.println("Speed of the Car is :"+Speed);
     }
+    /**
+     * @param s
+     */
     public void Wheel(int s){
         int wheel = s;
         System.out.println("No of Wheels in Car :"+wheel);

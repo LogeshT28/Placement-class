@@ -30,6 +30,17 @@ public class RemoveDuplicate {
         for(int i=0;i<size;i++){
             arr[i]=s.nextInt();
         }
+        int temp = 0;
+for(int i=0;i<size;i++){
+    for(int j=i+1;j<size;j++){
+        if(arr[i]> arr[j]){
+            temp =arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+}
+
          removeduplicate(arr,size);
     }
 
