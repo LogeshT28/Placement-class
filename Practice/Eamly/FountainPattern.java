@@ -1,5 +1,5 @@
 
-package Practice;import java.util.Scanner;
+package Practice.Eamly;import java.util.Scanner;
 
 public class FountainPattern {
     public static void main(String[] args) {

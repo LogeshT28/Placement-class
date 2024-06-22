@@ -1,8 +1,6 @@
-package Practice.arrayproblems;
-
+package Practice.Leetcode;
 import java.util.Arrays;
 import java.util.Scanner;
-
 class Solution {
     public int majorityElement(int[] nums) {
     //     int max = Integer.MIN_VALUE;

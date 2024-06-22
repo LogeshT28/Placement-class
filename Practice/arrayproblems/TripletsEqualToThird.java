@@ -7,24 +7,22 @@ public class TripletsEqualToThird {
     // Function to find and print all triplets in the array
     public static void findTriplets(int[] arr) {
         int n = arr.length;
-        boolean found = false;
-
+        int count=0;
         // Iterate through each triplet combination
-        for (int i = 0; i < n - 2; i++) {
-            for (int j = i + 1; j < n - 1; j++) {
-                for (int k = j + 1; k < n; k++) {
-                    if (arr[i] + arr[j] == arr[k] || arr[i] + arr[k] == arr[j] || arr[j] + arr[k] == arr[i]) {
-                        System.out.println("(" + arr[i] + ", " + arr[j] + ", " + arr[k] + ")");
-                        found = true;
+        for (int i = 0; i < n ; i++) {
+            for (int j = i + 1; j < n ; j++) {
+                int sum=arr[i]+arr[j];
+                for (int k = 0; k < n; k++) {
+                    if(sum==arr[k]){
+                        count++;
+                    }
                     }
                 }
             }
+            System.out.println(count);
         }
 
-        if (!found) {
-            System.out.println("No triplets found.");
-        }
-    }
+       
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -36,7 +34,6 @@ public class TripletsEqualToThird {
             arr[i] = scanner.nextInt();
         }
 
-        // Find and print triplets
         findTriplets(arr);
     }
 }

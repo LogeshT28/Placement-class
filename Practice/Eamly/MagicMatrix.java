@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Eamly;
 import java.util.Scanner;
 
 public class MagicMatrix{
