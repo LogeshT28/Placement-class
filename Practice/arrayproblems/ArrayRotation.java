@@ -1,4 +1,4 @@
-package Practice.arrayproblems;
+ package Practice.arrayproblems;
 import java.util.Scanner;
 public class ArrayRotation {
 
