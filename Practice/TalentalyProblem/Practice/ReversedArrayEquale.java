@@ -1,4 +1,4 @@
-package Practice.TalentalyProblem;
+package Practice;
 import java.util.Scanner;
 public class ReversedArrayEquale {
     public static void main(String[] args) {

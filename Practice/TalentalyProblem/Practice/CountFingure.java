@@ -1,4 +1,4 @@
-package Practice.TalentalyProblem;
+package Practice;
 
 import java.util.Scanner;
 
