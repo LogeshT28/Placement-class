@@ -1,4 +1,3 @@
-package Leetcode;
 
 public class MaximumSubArray {
     public static void main(String[] args) {
