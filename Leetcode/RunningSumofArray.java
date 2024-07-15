@@ -25,6 +25,6 @@ public class RunningSumofArray {
             for(int i=1;i<n;i++){
                 sum[i] = sum[i-1]+arr[i];
             }
-            System.out.println(Arrays.toString(sum));
+            System.out.println(Arrays.toString(sum));       
     }
 }
