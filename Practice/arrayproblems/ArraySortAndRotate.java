@@ -19,12 +19,12 @@ public class ArraySortAndRotate {
         if(arr[0]< arr[size-1]){
             count++;
         }
-
+        System.out.println(count);
         if(count <=1){
-            System.out.println("Array is Rotated And Sorted");
+            System.out.println("Array is  Sorted But not Rotated");
         }
         else{
-            System.out.println("Array is Not  Rotated And Sorted");
+            System.out.println("Array is Not  Sorted but Rotated");
         }
     }
 }
