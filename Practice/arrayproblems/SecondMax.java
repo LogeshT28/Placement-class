@@ -23,6 +23,6 @@ public class SecondMax {
         }
 
         System.out.println(second);
-        System.out.println(first);
+        //System.out.println(first);
     }
 }

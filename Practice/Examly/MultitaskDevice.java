@@ -1,4 +1,4 @@
-package Practice.Eamly;
+package Practice.Examly;
 import java.util.Scanner;
 
 public class MultitaskDevice {

@@ -5,7 +5,7 @@ class ThirdOrFive{
 	System.out.println("Enter a Number :");
 	int num = s.nextInt();
 	if(num%3 == 0 && num%5 == 0){
-	System.out.println("Welcome Home ");	
+	System.out.println("Welcome Home ");
 	}
 	else if(num%3==0){
 	System.out.println("Hai !!");	

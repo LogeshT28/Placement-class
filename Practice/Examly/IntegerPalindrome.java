@@ -1,4 +1,4 @@
-package Practice.Eamly;
+package Practice.Examly;
 public class IntegerPalindrome {
     public static void main(String[] args) {
         int a = 123;
